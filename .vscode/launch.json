@@ -2,29 +2,29 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Wails: Production test",
+      "name": "Wails: Production quail-view",
       "type": "go",
       "request": "launch",
       "mode": "exec",
-      "program": "${workspaceFolder}/build/bin/test",
+      "program": "${workspaceFolder}/build/bin/quail-view",
       "preLaunchTask": "build",
       "cwd": "${workspaceFolder}"
     },
     {
-      "name": "Wails: Debug test",
+      "name": "Wails: Debug quail-view",
       "type": "go",
       "request": "launch",
       "mode": "exec",
-      "program": "${workspaceFolder}/build/bin/test",
+      "program": "${workspaceFolder}/build/bin/quail-view",
       "preLaunchTask": "build debug",
       "cwd": "${workspaceFolder}"
     },
     {
-      "name": "Wails: Dev test",
+      "name": "Wails: Dev quail-view",
       "type": "go",
       "request": "launch",
       "mode": "exec",
-      "program": "${workspaceFolder}/build/bin/test",
+      "program": "${workspaceFolder}/build/bin/quail-view",
       "preLaunchTask": "build dev",
       "cwd": "${workspaceFolder}"
     }
