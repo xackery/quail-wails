@@ -17,3 +17,10 @@ to this in your browser, and you can call your Go code from devtools.
 ## Building
 
 To build a redistributable, production mode package, use `wails build`.
+
+## Commands ran for setup
+- `cd frontend && npm install vue-router && cd ..`
+- `cd frontend && npm install @shoelace-style/shoelace && cd ..` ([ref](https://shoelace.style/frameworks/vue))
+- `cd frontend && npm install -D vite-plugin-static-copy && cd ..` ([ref](https://stackoverflow.com/questions/76446464/how-to-expose-shoelace-icons-in-a-vite-app))
+- `cd frontend && npm install --save three && cd ..` ([ref](https://threejs.org/docs/index.html#manual/en/introduction/Installation))
+- `cd frontend && npm i --save-dev @types/three && cd ..` ([ref](https://stackoverflow.com/questions/63492296/how-to-import-three-js-in-vue-js))

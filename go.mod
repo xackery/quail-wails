@@ -1,4 +1,4 @@
-module github.com/xackery/quail-view
+module github.com/xackery/quail-wails
 
 go 1.18
 
